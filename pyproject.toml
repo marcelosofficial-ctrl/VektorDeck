@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vektordeck"
+version = "1.0.0"
+description = "Local-first workstation manager for local AI models and runtimes"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116,<1",
+  "uvicorn[standard]>=0.35,<1",
+  "pydantic>=2.11,<3",
+  "psutil>=6.1,<8",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<10",
+  "httpx>=0.28,<1",
+  "ruff>=0.12,<1",
+]
+
+[project.scripts]
+vektordeck = "vektordeck.main:run"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vektordeck"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+# CI uses Ruff as a critical-correctness gate while legacy modules are
+# gradually reformatted. Pytest remains the behavioral gate.
+select = ["E9", "F63", "F7", "F82"]
