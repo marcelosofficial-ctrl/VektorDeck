@@ -229,3 +229,7 @@ Key engineering notes:
 **VektorDeck 1.0.0** is the first completed product release for the current Windows local-workstation scope.
 
 Packaged installers, ComfyUI integration, remote/mobile control, plugin architecture, and broader runtime support are intentionally post-1.0 extensions rather than unfinished release requirements.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
