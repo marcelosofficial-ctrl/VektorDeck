@@ -20,6 +20,17 @@ It was built around a practical problem: local AI workflows become difficult to 
 
 VektorDeck brings those concerns into one local control deck without requiring a cloud account.
 
+## 1.0 distribution
+
+**VektorDeck 1.0.0 is the completed public source release for the current Windows local-workstation scope.**
+
+- Public source: [marcelosofficial-ctrl/VektorDeck](https://github.com/marcelosofficial-ctrl/VektorDeck)
+- Release notes: [VektorDeck 1.0.0](docs/release-notes-1.0.0.md)
+- Portfolio case study: [VektorDeck 1.0](https://marcelosofficial-ctrl.github.io/portfolio/projects/vektordeck/)
+
+VektorDeck 1.0 is operated through the included Windows Start / Stop / Update / Repair / Diagnostics workflow. A packaged installer is intentionally **post-1.0 scope**, not a missing 1.0 deliverable.
+
+
 ## What it does
 
 ### Model intelligence
