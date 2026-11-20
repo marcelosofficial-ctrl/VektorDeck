@@ -12,6 +12,12 @@
 
 [Portfolio case study](https://marcelosofficial-ctrl.github.io/portfolio/projects/vektordeck/) · [Release notes](docs/release-notes-1.0.0.md) · [Architecture](#architecture)
 
+<br/>
+
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/vektordeck/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/vektordeck-dashboard.webp" alt="VektorDeck dashboard showing machine state and the runtime deck" width="900" /></a>
+
+<sub>The dashboard: live hardware telemetry, runtime control and model readiness in one place.</sub>
+
 </div>
 
 VektorDeck is a local-first workstation manager for inspecting, launching, benchmarking, and comparing local AI runtimes on consumer hardware.
